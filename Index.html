@@ -41,6 +41,9 @@
 	 		max-width: 200px; 
 	 		
 		}
+		#content > div > img {
+		max-width: 100%;
+		}
 	 		
 	 	.background-red {
 	 		background-color: red;
@@ -50,7 +53,8 @@
 	 		background-color: white;
 	 	}
 	 	.background-black {
-	 		background-color: black; 
+	 		background-color: black;
+	 		color: white; 
 	 		}
 	 		
 	 	#content {
@@ -95,10 +99,10 @@
 	 
 	 <script type="text/javascript" src="licenseplate.js"></script>
 	 <script type="text/javascript" src="jquery.js"></script>
-	 
+	 <script type="text/javascript" src="jquery.masonry.js"></script>
 	  <script type="text/javascript">
 	  
-	$(window).ready(function() {new LicensePlateManufacturer($('#license'));});
+	$(window).ready(function() {new LicensePlateManufacturer($('#license'));$('#content').masonry({itemSelector : 'div',columnWidth : 240 });});
 </script>
 
 	 
@@ -115,37 +119,37 @@
 				
 				</div> 
 					<div class="background-red">
-					<p> 1) Find the volume of the average size school bus by searching google.	Search through the top results and find the average volume to be: 2511ft^3.
-<br/> <br/>	2) Use the same google search method to find the volume of the ping pong ball used in the USA table tennis league to be 2.045 in^3. 
-<br/> <br/> 3) Converted both measurements into like terms. Divide the size of the common ping pong ball (2.045 in^3) by 12 so as to make it like terms with the volume of the school bus. The new ping pong size is .17ft^3.
-<br/> <br/>	4) Divide 
-<br/> <br/> 5) Round to 14,734 in^3
-<br/> <br/> 6) A school bus can hold 14
+					<p> How many ping pong balls can a school bus hold?
+<br/> <br/>	1) Google search and vet the top results to find the volume of the common US American school bus is: 2511ft^3.
+<br/> <br/>	2) Use the same google search method to find the volume of the ping pong ball used in the USA table tennis league is 2.045 in^3. 
+<br/> <br/> 3) Convert both measurements into like terms. Divide the size of the common ping pong ball (2.045 in^3) by 12 so as to make it like terms with the volume of the school bus. The new ping pong size is .17ft^3.
+<br/> <br/>	4) Divide the volume of the school bus by the newly converted volume of the ping pong ball. (2511ft^3/.17ft^3).
+<br/> <br/> 5) Rounding to the nearest ones place, the common US American school bus can hold 14770 ping pong balls.  
 </p>
 					
-				
 				</div>
-				<div class="background-black">
 				
-				</div>
 				<div class="background-red">
 				
+				</div>
+				<div class="background-black" id="vimeo">
+				<iframe src="http://player.vimeo.com/video/41267197" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 				</div>
 				<div class="background-white">
 				<p> This page is a CSS liquid layout, meaning that the page was designed to work with browsers of any size. This programming technique is vital in an age where platforms and devices are as unique as their owners.</p>
 				
 				</div> 
 				<div class="background-black">
-				
+				 <p> Enter any whole number to determine how many unique liscence plates can be made with that number. </p>
 				</div>
 					<div id="license" class="background-red">
 					
 				</div>
+				<div class="background-black">
+				<img src="http://27.media.tumblr.com/tumblr_m1axar2bVE1rrdhvmo1_1280.jpg"/>
+				</div>
 				<div class="background-white">
 				
-				</div> 
-				<div class="background-black" id="vimeo">
-				<iframe src="http://player.vimeo.com/video/41267197" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 				</div>
 			
 			</div> 
