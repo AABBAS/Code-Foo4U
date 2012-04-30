@@ -10,6 +10,7 @@
 	 		width:100%; 
 	 		height:100%;
 	 		font-family: "Helvetica","sans-serif";
+	 		background-color: grey; 
 	 	
 	 	}
 	 	
@@ -25,7 +26,7 @@
 	 		left: 0px;
 	 		right: 0px;
 	 		background-color: red;
-	 		color: white; 
+	 		color: black; 
 	 	}
 	 	
 	 	.bold {
@@ -38,7 +39,7 @@
 	 		float:left; 
 	 		margin: 5px;
 	 		padding: 5px; 
-	 		max-width: 200px; 
+	 		max-width: 850px; 
 	 		
 		}
 		#content > div > img {
@@ -50,11 +51,13 @@
 	 	}
 	 	
 	 	.background-white {
-	 		background-color: white;
+	 		background-color: black;
+	 		color: white;
 	 	}
 	 	.background-black {
 	 		background-color: black;
 	 		color: white; 
+	 		
 	 		}
 	 		
 	 	#content {
@@ -64,7 +67,7 @@
 	 		max-height: 50px; 
 	 		margin: auto; 
 	 		margin-top: 150px;
-	 		background-color: purple;
+	 		background-color: grey;
 			
 	 	}
 	 	
@@ -99,7 +102,7 @@
 	 
 	 <script type="text/javascript" src="licenseplate.js"></script>
 	 <script type="text/javascript" src="jquery.js"></script>
-	 <script type="text/javascript" src="jquery.masonry.js"></script>
+	 
 	  <script type="text/javascript">
 	  
 	$(window).ready(function() {new LicensePlateManufacturer($('#license'));$('#content').masonry({itemSelector : 'div',columnWidth : 240 });});
@@ -111,47 +114,61 @@
 	<body>
 		<div id="main">
 			<div id="header"> 
-				<h1>Code-foo4U</h1>
+				<h1>Code-foo 4 U</h1>
 			</div>
 			<div id="content">
-				<div class="background-red">
-					<h1> Ali Abbas. (643)400-2233 </h1> 
+				
+				
+				<div class="background-black" id="vimeo">
+				
+				<iframe src="http://player.vimeo.com/video/41273904" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				</div>
+				
+				<div class="background-white" width: 550>
+				
+				<p> This page is a CSS liquid layout, meaning that the page was designed to work with browsers of any size. This programming technique is vital in an age where platforms and devices are as unique as their owners.</p>
 				
 				</div> 
-					<div class="background-red">
+				
+						<div class="background-red" width: 550px>
 					<p> How many ping pong balls can a school bus hold?
-<br/> <br/>	1) Google search and vet the top results to find the volume of the common US American school bus is: 2511ft^3.
+<br/> <br/>	1) Google search review the top reputable search results to find the volume of the common US American school bus is: 2511ft^3.
 <br/> <br/>	2) Use the same google search method to find the volume of the ping pong ball used in the USA table tennis league is 2.045 in^3. 
 <br/> <br/> 3) Convert both measurements into like terms. Divide the size of the common ping pong ball (2.045 in^3) by 12 so as to make it like terms with the volume of the school bus. The new ping pong size is .17ft^3.
 <br/> <br/>	4) Divide the volume of the school bus by the newly converted volume of the ping pong ball. (2511ft^3/.17ft^3).
-<br/> <br/> 5) Rounding to the nearest ones place, the common US American school bus can hold 14770 ping pong balls.  
+<br/> <br/> 5) Rounding to the nearest ones place, the common US American school bus can hold 14,770 ping pong balls.  
 </p>
 					
 				</div>
 				
 				<div class="background-red">
 				
-				</div>
-				<div class="background-black" id="vimeo">
-				<iframe src="http://player.vimeo.com/video/41267197" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-				</div>
-				<div class="background-white">
-				<p> This page is a CSS liquid layout, meaning that the page was designed to work with browsers of any size. This programming technique is vital in an age where platforms and devices are as unique as their owners.</p>
+				 <p> Enter any whole number to determine how many unique license plates can be made with that number. </p>
 				
-				</div> 
-				<div class="background-black">
-				 <p> Enter any whole number to determine how many unique liscence plates can be made with that number. </p>
 				</div>
-					<div id="license" class="background-red">
+					
+					<div id="license" class="background-black">
 					
 				</div>
-				<div class="background-black">
-				<img src="http://27.media.tumblr.com/tumblr_m1axar2bVE1rrdhvmo1_1280.jpg"/>
+				<div class="background-white">
+				<img src="http://27.media.tumblr.com/tumblr_m1axar2bVE1rrdhvmo1_1280.jpg" width="900" height="600"/>
+				</div>
+				
+				<div class="background-red">
+				<p> The basic unit of a pug is a snorkle.</p>
 				</div>
 				<div class="background-white">
+				<p> Panda shoes should only be worn on days with clear skies. Ever seen a soaked panda?</p>
+				</div>
+				<div class="background-black">
+					<h1> Ali Abbas. 
+					<br/> <br/> (640)400-2233 
+					<br/> <br/> 231 E 58th St. Apt.4A 
+					<br/> <br/> New York, NY 10022 
+					<br/> <br/> ara306@nyu.edu </h1> 
+				
 				
 				</div>
-			
 			</div> 
 			
 		</div>
